@@ -17,12 +17,10 @@ document.body.onload = function() {
     }
   };
 
-  function addImages(obj) {
+  const addImages = obj => {
     let images = Object.entries(obj);
 
     for (let i = 0; i < images.length; i++) {
-      // console.log(images[i]);
-
       let name = images[i][0];
       let heading = images[i][1].heading;
       let description = images[i][1].description;
@@ -48,10 +46,6 @@ document.body.onload = function() {
       tint.appendChild(imgElement);
       document.getElementById("image-container").appendChild(tint);
     }
-  }
-  // addImage(images.man);
-  // addImage(images.wizard);
-  // addImage(images.beast);
+  };
   addImages(images);
 };
-// document.querySelector(".image-container").innerHTML = ;
