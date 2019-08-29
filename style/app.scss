@@ -1,7 +1,6 @@
 @import "./header";
 @import "./main";
 @import "./side-nav";
-@import "./media-queries";
 
 body,
 html {
@@ -123,5 +122,11 @@ html {
 @media (max-width: 733px) {
   .main {
     height: 1200px;
+  }
+  .tint:before {
+    padding-top: 15%;
+  }
+  .tint:after {
+    padding-top: 25%;
   }
 }

@@ -359,5 +359,11 @@ html {
   .main {
     height: 1200px;
   }
+  .tint:before {
+    padding-top: 15%;
+  }
+  .tint:after {
+    padding-top: 25%;
+  }
 }
 /*# sourceMappingURL=app.css.map */
