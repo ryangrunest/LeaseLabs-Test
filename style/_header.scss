@@ -1,0 +1,41 @@
+/* header */
+.header {
+  width: 100vw;
+  height: 100px;
+  border-bottom: 1px solid rgba(206, 206, 206, 0.801);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav-links {
+  display: flex;
+  text-transform: uppercase;
+  height: 100%;
+  float: right;
+  margin-right: 1.5vw;
+}
+.header-nav-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 3vw;
+  text-decoration: none;
+  color: black;
+  transition: 0.15s all;
+}
+.header-nav-link:hover {
+  color: #00a8e2;
+}
+#logo {
+  margin: 1.5vw;
+  height: 60px;
+}
+#blue-nav {
+  padding: 0 4vw;
+  margin-right: -0.5vw;
+  background-color: #00a8e2;
+  color: white;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(27% 0, 100% 0, 77% 100%, 0 100%);
+}
+/* end header */
